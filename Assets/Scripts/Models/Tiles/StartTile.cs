@@ -1,16 +1,14 @@
 ﻿using Assets.Scripts.Enumerations;
 
-namespace Assets.Scripts.Models
+namespace Assets.Scripts.Models.Tiles
 {
 	public class StartTile
 		: Tile
 	{
-		public Tile Construct()
+		private void Start()
 		{
 			Type = TileType.Regular;
 			Orientation = Orientation.North;
-
-			return this;
 		}
 	}
 }
