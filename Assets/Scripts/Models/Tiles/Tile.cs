@@ -7,7 +7,7 @@ namespace Assets.Scripts.Models.Tiles
 	public abstract class Tile
 		: MonoBehaviour
 	{
-		private const float TILE_SIZE = 15.0f;
+		private const float TILE_SIZE = 18.0f;
 
 		public TileType Type { get; protected set; }
 
